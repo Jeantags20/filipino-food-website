@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+       
+       <input type="checkbox" id="menu">
+       <label for="menu" class="fa-solid fa-bars"></label>
+
+       <a href="#home" class="logo">Filipino Food<span>.</span></a>
+
+       <nav class="navbar">
+           <a href="#home">Home</a>
+           <a href="#about">About</a>
+           <a href="#products">Products</a>
+           <a href="#review">Review</a>
+           <a href="#contact">Contact</a>
+       </nav>
+
+       <div class="icon">
+        <a href="#products" class="fa-solid fa-heart"></a>
+        <a href="#products" class="fa-solid fa-cart-shopping"></a>
+        <a href="#contact" class="fa-solid fa-user"></a>
+       </div>
+
+    </header>
+
+    <input type="checkbox" id="cart-check" style="display:none;">
+    <div class="success-overlay cart-popup">
+        <div class="success-box">
+            <i class="fa-solid fa-cart-plus" style="font-size: 5rem; color: rgba(3, 205, 255, 0.927); margin-bottom: 1rem;"></i>
+            <h3>Added to Cart!</h3>
+            <p>Your food has been added to your shopping bag.</p>
+            <label for="cart-check" class="btn">Continue Shopping</label>
+        </div>
+    </div>
+
+     <section class="home" id="home">
+
+        <div class="content">
+            <h3>Traditional Filipino Cuisine</h3>
+            <span>Tasty & Flavorful</span>
+            <p>Experience the rich flavors of the Philippines with our traditional dishes, made with love and authentic ingredients.</p>
+            <a href="#products" class="btn">Shop Now</a> </div>
+        
+     </section>   
+
+     <section class="about" id="about">
+
+        <h1 class="heading"><span>About </span>Us</h1>
+        
+     <div class="row">
+
+        <div class="video-container">
+            <video src="vdo.mp4" loop autoplay muted></video>
+            <h3>Best Traditional Dishes</h3>
+        </div>
+
+        <div class="content">
+            <h3>Why choose us ?</h3>
+            <p> We are committed to providing the highest quality traditional Filipino cuisine with authentic flavors and ingredients.</p>
+            <a href="#contact" class="btn">Learn more</a>
+        </div>
+
+    </div>
+     </section>
+
+      <section class="icon-content">
+
+        <div class="icon">
+            <img src="free.png">
+            <div class="info">
+                <h3>Free Delivery</h3>
+                <span>On all orders</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="10day.png">
+            <div class="info">
+                <h3>10 days return</h3>
+                <span>Moneyback guarantee</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="offer.png">
+            <div class="info">
+                <h3>offer & gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="secure.png">
+            <div class="info">
+                <h3>secure payments</h3>
+                <span>protected by paypal</span>
+            </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h1 class="heading"><span>About </span>Us</h1>
+        <div class="row">
+            <div class="video-container">
+                <video src="vdo.mp4" loop autoplay muted></video>
+                <h3>Best Traditional Dishes</h3>
+            </div>
+            <div class="content">
+                <h3>Why choose us?</h3>
+                <p> We are committed to providing the highest quality traditional Filipino cuisine with authentic flavors and ingredients.</p>
+                <a href="#contact" class="btn">Learn more</a> 
+            </div>
+        </div>
+    </section>
+
+     <section class="products" id="products">
+
+        <h1 class="heading">latest <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="adobo.jpeg">
+                    <div class="icon">
+                        <a href="#products"  class="fa-solid fa-heart"></a>
+                        <label for="cart-check" class="cart-btn">add to cart</label>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Adobo</h3>
+                    <div class="price">₱180.00 <span>₱200.00</span></div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="hipon.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Sinigang na Hipon</h3>
+                    <div class="price">₱255.00 <span>₱300.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="karekare.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Kare-Kare</h3>
+                    <div class="price">₱285.00<span>₱300.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="pata.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Crispy Pata</h3>
+                    <div class="price">₱415.00<span>₱500.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="kawali.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Lechon Kawali</h3>
+                    <div class="price">₱400.00<span>₱500.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-3%</span>
+                <div class="image">
+                    <img src="bicol.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Bicol Express</h3>
+                    <div class="price">₱194.00<span>₱200.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-18%</span>
+                <div class="image">
+                    <img src="pinakbet.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Pinakbet</h3>
+                    <div class="price">₱246.00<span>₱300.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-12%</span>
+                <div class="image">
+                    <img src="bulalo.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Bulalo</h3>
+                    <div class="price">₱396.00<span>₱450.00</span></div>
+                </div>
+            </div>
+
+        </div>
+     </section>   
+
+    <section class="review" id="review">
+
+      <h1 class="heading">customer's <span>reviews</span></h1>
+
+      <div class="box-container">
+        
+        <div class="box">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>I’ve been looking for a place that captures the true essence of home-cooked Filipino food, and I finally found it. The Crispy Pata here has the most perfect, delicate crunch I’ve ever tasted—it reminds me of my grandmother's cooking but with a professional touch. The atmosphere is warm and inviting, making it the highlight of my entire week. Truly high-quality traditional flavors!</p>
+            <div class="user">
+                <img src="prince.jpg">
+                <div class="user-info">
+                    <h3>prince gian</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fa-solid fa-quote-right"></span> 
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>You can tell they are committed to using authentic ingredients. I tried the Sinigang and the sourness from the real tamarind was a revelation compared to the instant mixes you find elsewhere. Pairing it with their signature Adobo was a masterclass in balance. The decor strikes a beautiful balance between rustic and elegant. A must-visit for anyone craving real Filipino cuisine!</p>
+            <div class="user">
+                <img src="krishna.jpg">
+                <div class="user-info">
+                    <h3>Ryan Jay</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fa-solid fa-quote-right"></span> 
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Stumbled into this gem yesterday and was immediately struck by the beautiful, traditional-inspired decor. I had the Puto Bumbong for dessert, and the texture was spot on—soft, chewy, and perfectly sweetened. It’s rare to find a place that stays so loyal to traditional flavors while maintaining such high standards for service and presentation. I’ll definitely be back!</p>
+            <div class="user">
+                <img src="tagle.jpg">
+                <div class="user-info">
+                    <h3>Jean Tagle</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fa-solid fa-quote-right"></span> 
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+     <h1 class="heading">contact <span>us</span></h1>
+
+     <div class="row">
+        <input type="checkbox" id="form-submit-check" style="display:none;">
+        <div class="success-overlay">
+            <div class="success-box">
+                <i class="fa-solid fa-circle-check" style="font-size: 5rem; color: #99fffa; margin-bottom: 1rem;"></i>
+                <h3>Message Sent!</h3>
+                <p>Thank you for reaching out to us. We will get back to you soon.</p>
+                <label for="form-submit-check" class="btn">Close</label>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="name" class="box" required>
+            <input type="email" placeholder="email" class="box" required>
+            <input type="number" placeholder="number" class="box" required >
+            <textarea name="" class="box" placeholder="messsage" id="" cols="30" rows="10" required></textarea>
+
+            <label for="form-submit-check" class="btn" style="text-align: center; display: block;">send message</label>
+        </form>
+
+        <div class="image">
+            <img src="little.jpg">
+        </div>
+
+     </div>
+     </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="https://maps.app.goo.gl/UCPECGB5SRzgVVsK7" target="_blank">Muntinlupa City</a>
+                <a href="https://maps.app.goo.gl/XJgmSj7kmt9HZk3k7" target="_blank">Cubao, Quezon city</a>
+                <a href="https://maps.app.goo.gl/XeRtdRa8jUYN3BfU7" target="_blank">Malabon City</a>
+                <a href="https://maps.app.goo.gl/ibr3kz7LWwqKTg338" target="_blank">Parañaque City</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="tel:09054766193">0915-450-3447</a>
+                <a href="mailto:traditionfood@gmail.com">traditionfood@gmail.com</a>
+                <a href="#">Muntinlupa city, Philippines</a>
+                
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>GRUPO NG MGA POGI. web designer</span> | all rights reserved</div>
+    </section>
+</body>
+</html>
