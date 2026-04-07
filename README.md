@@ -92,7 +92,7 @@ The website simulates an **e-commerce food platform**, allowing users to explore
 1. Download or clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/modern-filipino-food-web-interface.git
+   [git clone https://github.com/your-username/modern-filipino-food-web-interface.git](https://jeantags20.github.io/filipino-food-website/)
    ```
 
 2. Open the folder
